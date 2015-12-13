@@ -36,7 +36,7 @@ $ npm start
 
 ```js
 import { createStore } from 'redux';
-import immutableToJS from 'redux-immutable-to-js'
+import immutableToJS from 'redux-immutable-to-js';
 import rootReducer from './reducers/index';
 
 // create a store that has redux-immutable-to-js enabled
@@ -48,16 +48,16 @@ const store = finalCreateStore(rootReducer);
 ### Composition
 
 ```js
-import { createStore, applyMiddleware, compose } from 'redux'
-import thunk from 'redux-thunk'
-import immutableToJS from 'redux-immutable-to-js'
+import { createStore, applyMiddleware, compose } from 'redux';
+import thunk from 'redux-thunk';
+import immutableToJS from 'redux-immutable-to-js';
 import rootReducer from './reducers/index';
 
 // create a store that has redux-thunk middleware and redux-immutable-to-js enabled
 const finalCreateStore = compose(
   applyMiddleware(thunk),
   immutableToJS()
-)(createStore)
+)(createStore);
 
 const store = finalCreateStore(rootReducer);
 ```
