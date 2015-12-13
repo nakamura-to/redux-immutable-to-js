@@ -6,7 +6,7 @@ A proxy creator for Redux store to convert immutable objects to JS objects.
 ## Motivation
 
 Redux Immutable to JS allows you to convert immutable objects to JS objects
-automatically when Redux state is required.
+automatically when Redux state is required outside reducers.
 
 This library is inspired by [Immutable Data Structures and JavaScript](http://jlongster.com/Using-Immutable-Data-Structures-in-JavaScript).
 
