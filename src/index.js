@@ -15,13 +15,13 @@ export function toJSDeep(obj) {
   return mapValues(obj, value => convert(value));
 }
 
-export function convert(any) {
-  if (isImmutable(any)) {
-    return toJS(any);
-  } else if (isPlainObject(any)) {
-    return toJSDeep(any);
+export function convert(obj) {
+  if (isImmutable(obj)) {
+    return toJS(obj);
+  } else if (isPlainObject(obj)) {
+    return toJSDeep(obj);
   }
-  return any;
+  return obj;
 }
 
 export default function immutableToJS() {
