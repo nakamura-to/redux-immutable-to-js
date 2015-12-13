@@ -12,7 +12,7 @@ export function toJS(obj) {
 
 export function toJSDeep(obj) {
   /* eslint no-use-before-define: 0 */
-  return mapValues(obj, value => convert(value));
+  return mapValues(obj, convert);
 }
 
 export function convert(obj) {
