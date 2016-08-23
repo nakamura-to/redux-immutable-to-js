@@ -26,7 +26,7 @@
   "dependencies": {
     "immutable": "^3.7.5",
     "lodash.isplainobject": "^3.2.0",
-    "lodash.mapvalues": "^3.0.1"
+    "lodash.mapvalues": "^4.6.0"
   },
   "devDependencies": {
     "babel": "^5.5.8",

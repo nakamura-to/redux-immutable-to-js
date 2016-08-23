@@ -1,5 +1,5 @@
-import mapValues from 'lodash.mapValues';
-import isPlainObject from 'lodash.isPlainObject';
+import mapValues from 'lodash.mapvalues';
+import isPlainObject from 'lodash.isplainobject';
 import { Iterable } from 'immutable';
 
 export function isImmutable(obj) {
