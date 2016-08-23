@@ -1,6 +1,6 @@
 {
   "name": "redux-immutable-to-js",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A proxy creator for Redux store to convert immutable objects to JS objects.",
   "main": "lib/index.js",
   "scripts": {
